@@ -1,4 +1,5 @@
 export const environment = {
-    production: true,
-    apiKey: 'YOUR_API_KEY_HERE'
-  };
+  production: true,
+  geminiApiKey: '',
+  apiUrl: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent'
+};
